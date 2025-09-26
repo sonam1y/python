@@ -68,6 +68,22 @@ print(df.dropna().isnull().sum())
 
 
 
+import pandas as pd
+df=pd.read_csv("output.csv")
+print(df.fillna(2))
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
